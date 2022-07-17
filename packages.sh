@@ -1,6 +1,8 @@
 bspwm
 sxhkd
 alacritty
+picom
+rofi
 chromium
 vscode
 feh
@@ -12,7 +14,6 @@ mpv
 neofetch
 nitrogen
 pcmanfm
-rofi
 scrot
 sddm
 slock
