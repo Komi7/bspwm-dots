@@ -2,8 +2,46 @@
 Let's use bspwm window manager for Archlinux.
 # bspwm Setup
 
-# These dotfiles are for my rice configurations.
+## install bspwm,Sddm ,Git,vim :
+```bash 
+sudo pacman -S bspwm sddm git vim
+``` 
+# What is Sddm?
+The Simple Desktop Display Manager (SDDM) is a display manager.
 
+## config Sddm :
+```bash 
+sudo systemctl enable sddm 
+``` 
+
+## clone dot-Config File :
+```bash
+git clone https://github.com/Komi7/bspwm-dots.git
+```
+## Packages install :
+```bash 
+sudo pacman -S --needed - < packages.sh
+``` 
+
+**NOTE!** These were made for my computer specifications. So use it at your own risk! 
+
+
+
+## Aesthetic VSCode setup ☄️:
+
+
+### Install required extension
+
+  •
+  <a href="https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui">Customize UI</a>
+
+  •
+  <a href="https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon">Carbon Product Icons</a>
+
+### copy config file
+```bash
+cp misc/vscode/User/settings.json ~/.config/Code/User
+```
 
 # Used Stuff
 - [Polybar](https://github.com/polybar/polybar) = A fast and easy to use statusbar. 
