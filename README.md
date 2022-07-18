@@ -25,7 +25,45 @@ sudo pacman -S --needed - < packages.sh
 
 **NOTE!** These were made for my computer specifications. So use it at your own risk! 
 
+## Polybar-Theme
+```bash
+git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
+```
+• Change to cloned directory and make setup.sh executable -
+```bash
+cd polybar-themes
+chmod +x setup.sh
+```
+• Run setup.sh and select a style -
+```bash
+./setup.sh
+```
 
+[*] Installing Polybar Themes...
+
+[*] Choose Style -
+[1] Simple
+[2] Bitmap
+
+[?] Select Option : 1
+
+[*] Installing fonts...
+[*] Creating a backup of your polybar configs...
+[*] Successfully Installed.
+
+ 
+• That's it, These themes are now installed on your system.
+Note : These themes are like an ecosystem, everything here is connected with each other in some way. So... before modifying anything by your own, make sure you know what you are doing.
+
+• Open the terminal and enter the following command -
+```bash
+bash ~/.config/polybar/launch.sh
+```
+• You can add the same command to your WM autostart file to launch the bar on login.
+## Launch Polybar
+```bash
+bash ~/.config/polybar/launch.sh --blocks
+```
 
 ## Aesthetic VSCode setup ☄️:
 
