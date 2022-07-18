@@ -46,6 +46,8 @@ alias off="shutdown"
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+source ~/.config/zsh/you-should-use/you-should-use.plugin.zsh
+
 
 zstyle ':completion:*' menu select
 
@@ -53,8 +55,10 @@ zstyle ':completion:*' menu select
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-# auto notify options
-AUTO_NOTIFY_IGNORE+=("lf" "hugo serve")
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
+source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
