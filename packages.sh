@@ -1,5 +1,6 @@
 bspwm
 sxhkd
+polybar
 alacritty
 picom
 rofi
