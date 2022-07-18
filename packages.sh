@@ -21,5 +21,4 @@ telegram-desktop
 unzip
 vlc
 xorg-xbacklight
-zip
-zsh
+p7zip
