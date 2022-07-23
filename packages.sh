@@ -23,3 +23,4 @@ unzip
 vlc
 xorg-xbacklight
 p7zip
+zsh
